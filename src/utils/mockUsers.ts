@@ -14,5 +14,5 @@ export const generateMockUsers = (count: number): User[] => {
     mockUsers.push(mockUser);
   }
 
-  return mockUsers;
+  return mockUsers.sort(({time}, b) => b.time  - time );
 };

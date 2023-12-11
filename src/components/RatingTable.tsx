@@ -45,7 +45,7 @@ const RatingTable: React.FC<RatingTableProps> = ({users}) => {
         <div className='user__avatar'><img src={require('../img/girl.jpg')} alt="girl face" /></div>
         <div className='user__text-wrapper'>
         <div className='user__text'>{item.name}</div>
-        <div className='user__text'>{item.time} | {item.speed} км/ч</div>
+        <div className='user__text'>Время: {item.time} | {item.speed} км/ч</div>
         <div className='user__text'>Штрафное время 0</div>
         </div>
       </div>

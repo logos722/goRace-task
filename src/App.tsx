@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
+        <h1>Список пользователей</h1>
         <Suspense fallback={<Loader/>}>
         <MainComp users={users}/>
         </Suspense>
